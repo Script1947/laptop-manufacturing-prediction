@@ -1,0 +1,34 @@
+{
+  "split_info": {
+    "total_samples": 600,
+    "train_samples": 420,
+    "test_samples": 180,
+    "train_ratio": 0.7,
+    "test_ratio": 0.3,
+    "random_state": 42
+  },
+  "time_model": {
+    "random_forest": {
+      "mae": 68.48846277777767,
+      "rmse": 151.50418054750233,
+      "r2_score": 0.9585379787993791
+    },
+    "linear_baseline": {
+      "mae": 251.37813193991738,
+      "rmse": 427.3706305154251,
+      "r2_score": 0.6700785267297904
+    }
+  },
+  "cost_model": {
+    "random_forest": {
+      "mae": 852.3271044444456,
+      "rmse": 2364.7809979251074,
+      "r2_score": 0.9807038549521571
+    },
+    "linear_baseline": {
+      "mae": 7446.004816342546,
+      "rmse": 12798.817964478101,
+      "r2_score": 0.43476580761181116
+    }
+  }
+}

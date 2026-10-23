@@ -1,0 +1,266 @@
+{
+  "categorical_columns": [
+    "Component_Type",
+    "Process_Type",
+    "Material",
+    "Manufacturing_Process",
+    "Machine_Type",
+    "Shift_Type"
+  ],
+  "numerical_columns": [
+    "Length_mm",
+    "Width_mm",
+    "Height_mm",
+    "Production_Quantity",
+    "Complexity_Level"
+  ],
+  "unique_values": {
+    "Component_Type": [
+      "Battery_Installation",
+      "Cooling_Fan",
+      "Display_Installation",
+      "Final_Quality_Check",
+      "Heat_Sink",
+      "Keyboard_Frame",
+      "Keyboard_Installation",
+      "Laptop_Bottom_Cover",
+      "Laptop_Casing",
+      "Laptop_Hinge",
+      "Motherboard_Installation",
+      "RAM_Installation",
+      "SSD_Installation",
+      "Speaker_Enclosure",
+      "Thermal_Paste_Application",
+      "Touchpad_Installation",
+      "WiFi_Card_Installation"
+    ],
+    "Process_Type": [
+      "Assembly",
+      "Manufacturing"
+    ],
+    "Material": [
+      "Aluminum",
+      "N_A",
+      "Plastic",
+      "Plastic_Metal",
+      "Purchased_Electronics",
+      "Purchased_Keyboard",
+      "Steel",
+      "Thermal_Compound"
+    ],
+    "Manufacturing_Process": [
+      "CNC_Machining",
+      "Cable_Connection_and_Fitting",
+      "Component_Production",
+      "Extrusion_and_Cutting",
+      "Fitting_and_Connector",
+      "Functional_Testing",
+      "Injection_Molding",
+      "Manual_Application",
+      "Screw_Mounting",
+      "Screw_Mounting_and_Connector",
+      "Slot_Insertion",
+      "Stamping"
+    ],
+    "Machine_Type": [
+      "Assembly_Workstation",
+      "CNC_Machine",
+      "Cutting_or_Forming_Machine",
+      "Injection_Molding_Machine",
+      "Stamping_Machine"
+    ],
+    "Shift_Type": [
+      "Day",
+      "Night"
+    ]
+  },
+  "component_profiles": {
+    "Battery_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Electronics",
+      "Length_mm": 200,
+      "Width_mm": 80,
+      "Height_mm": 8,
+      "Manufacturing_Process": "Screw_Mounting_and_Connector",
+      "Complexity_Level": 1.4,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "Cooling_Fan": {
+      "Process_Type": "Manufacturing",
+      "Material": "Plastic_Metal",
+      "Length_mm": 71,
+      "Width_mm": 71,
+      "Height_mm": 10,
+      "Manufacturing_Process": "Component_Production",
+      "Complexity_Level": 1.1,
+      "Machine_Type": "Cutting_or_Forming_Machine",
+      "Default_Quantity": 1
+    },
+    "Display_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Electronics",
+      "Length_mm": 302,
+      "Width_mm": 192,
+      "Height_mm": 4,
+      "Manufacturing_Process": "Cable_Connection_and_Fitting",
+      "Complexity_Level": 1.1,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "Final_Quality_Check": {
+      "Process_Type": "Assembly",
+      "Material": "N_A",
+      "Length_mm": 320,
+      "Width_mm": 222,
+      "Height_mm": 20,
+      "Manufacturing_Process": "Functional_Testing",
+      "Complexity_Level": 1.2,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "Heat_Sink": {
+      "Process_Type": "Manufacturing",
+      "Material": "Aluminum",
+      "Length_mm": 100,
+      "Width_mm": 80,
+      "Height_mm": 8,
+      "Manufacturing_Process": "Extrusion_and_Cutting",
+      "Complexity_Level": 1.2,
+      "Machine_Type": "Cutting_or_Forming_Machine",
+      "Default_Quantity": 1
+    },
+    "Keyboard_Frame": {
+      "Process_Type": "Manufacturing",
+      "Material": "Plastic",
+      "Length_mm": 290,
+      "Width_mm": 99,
+      "Height_mm": 5,
+      "Manufacturing_Process": "Injection_Molding",
+      "Complexity_Level": 1.0,
+      "Machine_Type": "Injection_Molding_Machine",
+      "Default_Quantity": 1
+    },
+    "Keyboard_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Keyboard",
+      "Length_mm": 290,
+      "Width_mm": 100,
+      "Height_mm": 5,
+      "Manufacturing_Process": "Fitting_and_Connector",
+      "Complexity_Level": 1.3,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "Laptop_Bottom_Cover": {
+      "Process_Type": "Manufacturing",
+      "Material": "Plastic",
+      "Length_mm": 319,
+      "Width_mm": 219,
+      "Height_mm": 6,
+      "Manufacturing_Process": "Injection_Molding",
+      "Complexity_Level": 1.0,
+      "Machine_Type": "Injection_Molding_Machine",
+      "Default_Quantity": 1
+    },
+    "Laptop_Casing": {
+      "Process_Type": "Manufacturing",
+      "Material": "Aluminum",
+      "Length_mm": 321,
+      "Width_mm": 220,
+      "Height_mm": 8,
+      "Manufacturing_Process": "CNC_Machining",
+      "Complexity_Level": 1.3,
+      "Machine_Type": "CNC_Machine",
+      "Default_Quantity": 1
+    },
+    "Laptop_Hinge": {
+      "Process_Type": "Manufacturing",
+      "Material": "Steel",
+      "Length_mm": 45,
+      "Width_mm": 12,
+      "Height_mm": 5,
+      "Manufacturing_Process": "Stamping",
+      "Complexity_Level": 1.2,
+      "Machine_Type": "Stamping_Machine",
+      "Default_Quantity": 1
+    },
+    "Motherboard_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Electronics",
+      "Length_mm": 250,
+      "Width_mm": 181,
+      "Height_mm": 2,
+      "Manufacturing_Process": "Screw_Mounting",
+      "Complexity_Level": 1.2,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "RAM_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Electronics",
+      "Length_mm": 70,
+      "Width_mm": 30,
+      "Height_mm": 3,
+      "Manufacturing_Process": "Slot_Insertion",
+      "Complexity_Level": 1.0,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "SSD_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Electronics",
+      "Length_mm": 80,
+      "Width_mm": 22,
+      "Height_mm": 3,
+      "Manufacturing_Process": "Screw_Mounting",
+      "Complexity_Level": 1.2,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "Speaker_Enclosure": {
+      "Process_Type": "Manufacturing",
+      "Material": "Plastic",
+      "Length_mm": 60,
+      "Width_mm": 30,
+      "Height_mm": 12,
+      "Manufacturing_Process": "Injection_Molding",
+      "Complexity_Level": 1.0,
+      "Machine_Type": "Injection_Molding_Machine",
+      "Default_Quantity": 1
+    },
+    "Thermal_Paste_Application": {
+      "Process_Type": "Assembly",
+      "Material": "Thermal_Compound",
+      "Length_mm": 20,
+      "Width_mm": 20,
+      "Height_mm": 1,
+      "Manufacturing_Process": "Manual_Application",
+      "Complexity_Level": 1.0,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "Touchpad_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Electronics",
+      "Length_mm": 100,
+      "Width_mm": 61,
+      "Height_mm": 4,
+      "Manufacturing_Process": "Fitting_and_Connector",
+      "Complexity_Level": 1.2,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    },
+    "WiFi_Card_Installation": {
+      "Process_Type": "Assembly",
+      "Material": "Purchased_Electronics",
+      "Length_mm": 30,
+      "Width_mm": 22,
+      "Height_mm": 3,
+      "Manufacturing_Process": "Slot_Insertion",
+      "Complexity_Level": 1.2,
+      "Machine_Type": "Assembly_Workstation",
+      "Default_Quantity": 1
+    }
+  }
+}

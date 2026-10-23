@@ -1,0 +1,414 @@
+{
+  "time_feature_importances": [
+    {
+      "feature": "Production_Quantity",
+      "importance": 0.4939414602268389
+    },
+    {
+      "feature": "Manufacturing_Process_CNC_Machining",
+      "importance": 0.15725332995775917
+    },
+    {
+      "feature": "Machine_Type_CNC_Machine",
+      "importance": 0.13709196301484436
+    },
+    {
+      "feature": "Material_Aluminum",
+      "importance": 0.04063719354119236
+    },
+    {
+      "feature": "Width_mm",
+      "importance": 0.03403129754660357
+    },
+    {
+      "feature": "Length_mm",
+      "importance": 0.028128691457157975
+    },
+    {
+      "feature": "Process_Type_Manufacturing",
+      "importance": 0.025271314899920856
+    },
+    {
+      "feature": "Process_Type_Assembly",
+      "importance": 0.015883816586816306
+    },
+    {
+      "feature": "Machine_Type_Assembly_Workstation",
+      "importance": 0.015225018732884418
+    },
+    {
+      "feature": "Component_Type_Laptop_Casing",
+      "importance": 0.01425346304844437
+    },
+    {
+      "feature": "Height_mm",
+      "importance": 0.012391788359782527
+    },
+    {
+      "feature": "Complexity_Level",
+      "importance": 0.009582212845442273
+    },
+    {
+      "feature": "Manufacturing_Process_Cable_Connection_and_Fitting",
+      "importance": 0.0028125873239345364
+    },
+    {
+      "feature": "Component_Type_Speaker_Enclosure",
+      "importance": 0.0019121057118805381
+    },
+    {
+      "feature": "Component_Type_Display_Installation",
+      "importance": 0.0017607227621317906
+    },
+    {
+      "feature": "Shift_Type_Day",
+      "importance": 0.0013418924073064344
+    },
+    {
+      "feature": "Machine_Type_Injection_Molding_Machine",
+      "importance": 0.0012790206634481845
+    },
+    {
+      "feature": "Shift_Type_Night",
+      "importance": 0.0008493298011125725
+    },
+    {
+      "feature": "Component_Type_Keyboard_Frame",
+      "importance": 0.000758423976874404
+    },
+    {
+      "feature": "Manufacturing_Process_Slot_Insertion",
+      "importance": 0.0007007701540601727
+    },
+    {
+      "feature": "Manufacturing_Process_Injection_Molding",
+      "importance": 0.0006917749233431909
+    },
+    {
+      "feature": "Material_Plastic",
+      "importance": 0.0006372389592376212
+    },
+    {
+      "feature": "Manufacturing_Process_Fitting_and_Connector",
+      "importance": 0.000495798383142846
+    },
+    {
+      "feature": "Material_Purchased_Electronics",
+      "importance": 0.00033743916740449275
+    },
+    {
+      "feature": "Machine_Type_Cutting_or_Forming_Machine",
+      "importance": 0.0002912314964542111
+    },
+    {
+      "feature": "Component_Type_Battery_Installation",
+      "importance": 0.00025963079114763233
+    },
+    {
+      "feature": "Material_Purchased_Keyboard",
+      "importance": 0.00019663139319006664
+    },
+    {
+      "feature": "Component_Type_Laptop_Bottom_Cover",
+      "importance": 0.00017128824745796896
+    },
+    {
+      "feature": "Component_Type_Final_Quality_Check",
+      "importance": 0.0001642708874875154
+    },
+    {
+      "feature": "Component_Type_Motherboard_Installation",
+      "importance": 0.00015891522940494353
+    },
+    {
+      "feature": "Manufacturing_Process_Functional_Testing",
+      "importance": 0.00014514268229741964
+    },
+    {
+      "feature": "Manufacturing_Process_Extrusion_and_Cutting",
+      "importance": 0.0001312890720059949
+    },
+    {
+      "feature": "Manufacturing_Process_Screw_Mounting_and_Connector",
+      "importance": 0.0001199071081534697
+    },
+    {
+      "feature": "Component_Type_Heat_Sink",
+      "importance": 0.00011329854954376648
+    },
+    {
+      "feature": "Material_Plastic_Metal",
+      "importance": 0.00011147769479846308
+    },
+    {
+      "feature": "Component_Type_Laptop_Hinge",
+      "importance": 0.00010446619110711527
+    },
+    {
+      "feature": "Component_Type_Keyboard_Installation",
+      "importance": 0.00010325566320537197
+    },
+    {
+      "feature": "Manufacturing_Process_Component_Production",
+      "importance": 0.00010052990895576782
+    },
+    {
+      "feature": "Material_N_A",
+      "importance": 9.679865551723399e-05
+    },
+    {
+      "feature": "Machine_Type_Stamping_Machine",
+      "importance": 8.985007476624674e-05
+    },
+    {
+      "feature": "Component_Type_Cooling_Fan",
+      "importance": 6.572458387788117e-05
+    },
+    {
+      "feature": "Component_Type_Touchpad_Installation",
+      "importance": 4.9699183463340216e-05
+    },
+    {
+      "feature": "Material_Steel",
+      "importance": 4.952837769424175e-05
+    },
+    {
+      "feature": "Manufacturing_Process_Stamping",
+      "importance": 4.594127455033181e-05
+    },
+    {
+      "feature": "Manufacturing_Process_Manual_Application",
+      "importance": 4.3916384515195086e-05
+    },
+    {
+      "feature": "Manufacturing_Process_Screw_Mounting",
+      "importance": 3.905454571476601e-05
+    },
+    {
+      "feature": "Material_Thermal_Compound",
+      "importance": 2.2170485272206932e-05
+    },
+    {
+      "feature": "Component_Type_RAM_Installation",
+      "importance": 1.8680422343723478e-05
+    },
+    {
+      "feature": "Component_Type_SSD_Installation",
+      "importance": 1.6323697753833227e-05
+    },
+    {
+      "feature": "Component_Type_Thermal_Paste_Application",
+      "importance": 1.219009713609705e-05
+    },
+    {
+      "feature": "Component_Type_WiFi_Card_Installation",
+      "importance": 1.0132850621410132e-05
+    }
+  ],
+  "cost_feature_importances": [
+    {
+      "feature": "Production_Quantity",
+      "importance": 0.5719808754467455
+    },
+    {
+      "feature": "Manufacturing_Process_CNC_Machining",
+      "importance": 0.13938279449534785
+    },
+    {
+      "feature": "Machine_Type_CNC_Machine",
+      "importance": 0.12272559878003639
+    },
+    {
+      "feature": "Component_Type_Laptop_Casing",
+      "importance": 0.03935942121843427
+    },
+    {
+      "feature": "Width_mm",
+      "importance": 0.02068856584850352
+    },
+    {
+      "feature": "Material_Aluminum",
+      "importance": 0.018935786726878408
+    },
+    {
+      "feature": "Process_Type_Manufacturing",
+      "importance": 0.016417044215585
+    },
+    {
+      "feature": "Length_mm",
+      "importance": 0.013685226748284882
+    },
+    {
+      "feature": "Process_Type_Assembly",
+      "importance": 0.010982533215313596
+    },
+    {
+      "feature": "Machine_Type_Assembly_Workstation",
+      "importance": 0.008353747846976007
+    },
+    {
+      "feature": "Complexity_Level",
+      "importance": 0.007003258620521403
+    },
+    {
+      "feature": "Material_Plastic",
+      "importance": 0.006798388714810568
+    },
+    {
+      "feature": "Height_mm",
+      "importance": 0.0060580220000613135
+    },
+    {
+      "feature": "Manufacturing_Process_Injection_Molding",
+      "importance": 0.004923964568783262
+    },
+    {
+      "feature": "Shift_Type_Night",
+      "importance": 0.0021614244381586377
+    },
+    {
+      "feature": "Shift_Type_Day",
+      "importance": 0.0018796502846331704
+    },
+    {
+      "feature": "Material_Plastic_Metal",
+      "importance": 0.0017405516875125997
+    },
+    {
+      "feature": "Machine_Type_Injection_Molding_Machine",
+      "importance": 0.0015770426044088202
+    },
+    {
+      "feature": "Component_Type_Cooling_Fan",
+      "importance": 0.0012095449647519987
+    },
+    {
+      "feature": "Manufacturing_Process_Component_Production",
+      "importance": 0.0011401784038588881
+    },
+    {
+      "feature": "Component_Type_Laptop_Bottom_Cover",
+      "importance": 0.0009728752075627903
+    },
+    {
+      "feature": "Machine_Type_Cutting_or_Forming_Machine",
+      "importance": 0.0004983535639574813
+    },
+    {
+      "feature": "Component_Type_Keyboard_Frame",
+      "importance": 0.0004332528284002674
+    },
+    {
+      "feature": "Material_Purchased_Electronics",
+      "importance": 0.00018506583757307778
+    },
+    {
+      "feature": "Component_Type_Final_Quality_Check",
+      "importance": 0.00017239358387685308
+    },
+    {
+      "feature": "Component_Type_Speaker_Enclosure",
+      "importance": 0.0001622627244454806
+    },
+    {
+      "feature": "Component_Type_Display_Installation",
+      "importance": 0.00014883832260849028
+    },
+    {
+      "feature": "Manufacturing_Process_Extrusion_and_Cutting",
+      "importance": 0.00012308453886073823
+    },
+    {
+      "feature": "Manufacturing_Process_Cable_Connection_and_Fitting",
+      "importance": 7.803828348713153e-05
+    },
+    {
+      "feature": "Component_Type_Heat_Sink",
+      "importance": 7.23028308814575e-05
+    },
+    {
+      "feature": "Machine_Type_Stamping_Machine",
+      "importance": 1.836416766270484e-05
+    },
+    {
+      "feature": "Material_Steel",
+      "importance": 1.777581161089799e-05
+    },
+    {
+      "feature": "Manufacturing_Process_Fitting_and_Connector",
+      "importance": 1.7374434891501212e-05
+    },
+    {
+      "feature": "Component_Type_Motherboard_Installation",
+      "importance": 1.5531736680506962e-05
+    },
+    {
+      "feature": "Manufacturing_Process_Stamping",
+      "importance": 1.484897720169693e-05
+    },
+    {
+      "feature": "Manufacturing_Process_Functional_Testing",
+      "importance": 1.1807484336862004e-05
+    },
+    {
+      "feature": "Component_Type_Laptop_Hinge",
+      "importance": 1.1401797262161513e-05
+    },
+    {
+      "feature": "Manufacturing_Process_Screw_Mounting",
+      "importance": 6.579269473949658e-06
+    },
+    {
+      "feature": "Component_Type_Thermal_Paste_Application",
+      "importance": 6.48509916893501e-06
+    },
+    {
+      "feature": "Component_Type_Keyboard_Installation",
+      "importance": 6.14168689710614e-06
+    },
+    {
+      "feature": "Material_Thermal_Compound",
+      "importance": 5.464662389505098e-06
+    },
+    {
+      "feature": "Manufacturing_Process_Manual_Application",
+      "importance": 5.114891317761684e-06
+    },
+    {
+      "feature": "Material_Purchased_Keyboard",
+      "importance": 3.4358590328293508e-06
+    },
+    {
+      "feature": "Manufacturing_Process_Slot_Insertion",
+      "importance": 2.8923352393600685e-06
+    },
+    {
+      "feature": "Material_N_A",
+      "importance": 1.4522751631173385e-06
+    },
+    {
+      "feature": "Component_Type_Touchpad_Installation",
+      "importance": 1.175712006014018e-06
+    },
+    {
+      "feature": "Component_Type_RAM_Installation",
+      "importance": 1.1363340564796935e-06
+    },
+    {
+      "feature": "Component_Type_SSD_Installation",
+      "importance": 9.382149543100446e-07
+    },
+    {
+      "feature": "Manufacturing_Process_Screw_Mounting_and_Connector",
+      "importance": 8.396395766034514e-07
+    },
+    {
+      "feature": "Component_Type_Battery_Installation",
+      "importance": 7.535135794914971e-07
+    },
+    {
+      "feature": "Component_Type_WiFi_Card_Installation",
+      "importance": 3.975462385121955e-07
+    }
+  ]
+}
